@@ -1,1 +1,1 @@
-# Responsive-pragraphs
+# Responsive-paragraphs
