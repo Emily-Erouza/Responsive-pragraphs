@@ -1,13 +1,8 @@
 
-/* 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans); */
-
-/* @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300); */
-
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
-/* for 980px or less */
+
 @media screen and (max-width: 980px) {
 	
 	div.content{
@@ -21,7 +16,8 @@ margin: 20px;
 
 div#Nivea{
 
-background-color:lightcyan;
+background-image: url(https://www.shutterstock.com/image-photo/may-1-2022-ukraine-city-260nw-2250004745.jpg);
+
 width: 290px;
 padding: 5px 15px;
 height:60%
@@ -31,32 +27,36 @@ div#Dove{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://e1.pxfuel.com/desktop-wallpaper/534/533/desktop-wallpaper-mp3-forever-white-pigeon-birds-bird-thumbnail.jpg);
+
 }
 
 div#Vaseline{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/f14068135666639.6301f91ea0293.png);
+
 }
 
 div#Avon{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+
+background-image:url(https://business-review.eu/wp-content/uploads/2017/05/avon.jpg);
 }
 
 
 }
 
-/* for 700px or less */
+
 @media screen and (max-width: 600px) {
 
 div#Nivea{
 
-background-color:lightcyan;
+background-image: url(https://www.shutterstock.com/image-photo/may-1-2022-ukraine-city-260nw-2250004745.jpg);
+
 width: 290px;
 padding: 5px 15px;
 height:60%
@@ -66,27 +66,29 @@ div#Dove{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://e1.pxfuel.com/desktop-wallpaper/534/533/desktop-wallpaper-mp3-forever-white-pigeon-birds-bird-thumbnail.jpg);
+
 }
 
 div#Vaseline{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/f14068135666639.6301f91ea0293.png);
+
 }
 
 div#Avon{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+
+background-image:url(https://business-review.eu/wp-content/uploads/2017/05/avon.jpg);
 }
 
 
 }
 
-/* for 480px or less */
 @media screen and (max-width: 480px) {
 div.content{
 background-color:#ff0000 ;
@@ -99,7 +101,8 @@ margin: 20px;
 
 div#Nivea{
 
-background-color:lightcyan;
+background-image: url(https://www.shutterstock.com/image-photo/may-1-2022-ukraine-city-260nw-2250004745.jpg);
+
 width: 290px;
 padding: 5px 15px;
 height:60%
@@ -109,44 +112,50 @@ div#Dove{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://e1.pxfuel.com/desktop-wallpaper/534/533/desktop-wallpaper-mp3-forever-white-pigeon-birds-bird-thumbnail.jpg);
+
 }
 
 div#Vaseline{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/f14068135666639.6301f91ea0293.png);
+
 }
 
 div#Avon{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+
+background-image:url(https://business-review.eu/wp-content/uploads/2017/05/avon.jpg);
 }
 
 
 	
 }
 
+h2{
+text-align: center;
+color: rgb(123, 12, 12);
+font-family: sans-serif;
 
-
-
-
-
+}
 div.content{
-background-color:#ff0000 ;
+/* background-color:#ff0000 ; */
 width:170px ;
 height: 170px;
 border:5px solid #000000 ;
 float:left ;
 margin: 20px;
+text-align: center;
 }
 
 div#Nivea{
 
-background-color:lightcyan;
+background-image: url(https://www.shutterstock.com/image-photo/may-1-2022-ukraine-city-260nw-2250004745.jpg);
+
 width: 290px;
 padding: 5px 15px;
 height:60%
@@ -156,20 +165,27 @@ div#Dove{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://e1.pxfuel.com/desktop-wallpaper/534/533/desktop-wallpaper-mp3-forever-white-pigeon-birds-bird-thumbnail.jpg);
 }
 
 div#Vaseline{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image: url(https://cdn.shopify.com/s/files/1/0560/3154/3495/products/1649332279_7396_250x250.jpg?v=1683094845);
 }
 
 div#Avon{
 width: 290px;
 padding: 5px 15px;
 height:60%;
-background-color: lightcyan;
+background-image:url(https://5.imimg.com/data5/SELLER/Default/2023/3/295511244/SL/OC/NR/44441454/plant-extract-250x250.jpg);
+}
+p{
+
+color:dark black;
+font-style:oblique;
+font-size: larger;
+
 }
 
