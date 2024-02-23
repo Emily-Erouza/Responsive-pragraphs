@@ -2,100 +2,100 @@
 MEDIA QUERIES
 *************************************************************************************/
 
+/* logo */
+#logo {
+  width: 100px;
+  height: 70px; 
+  float: left;
+  color: white;
+  font-size:100%;
+}
+/* navbar */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  background: rgb(50, 112, 170);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.247);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+}
+
+
+
+.Navbar li a {
+  padding: 8px;
+  justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: #007bff;
+}
+
+
+.nav-bar li a {
+  display: block;
+  color: rgb(156, 83, 83);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a{
+  text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.nav-bar li {
+  float: right;
+  display:inline;
+  color: black;
+  margin: 0 15px;
+  border-radius: 10%;
+  
+} 
+
+ .Navbar a:hover {
+  cursor: pointer;
+  color: rgb(235, 124, 143);
+}
+
+.header .nav-bar a {
+  margin: 0 1rem;
+  font-size: 1.6 rem;
+  color: white;
+}
+
+.header .nav-bar a:hover {
+  color: var(--primary-color);
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+
 @media screen and (max-width: 980px) {
-    html {
-        background-color:white;
-      
-      }
-      
-      
-      
-      /* logo */
-      #logo {
-        width: 100px;
-        height: 70px; 
-        float: left;
-        color: white;
-        font-size:100%;
-      }
-      /* navbar */
-      .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.5rem 7%;
-        background: rgb(50, 112, 170);
-        border-bottom: solid 1px rgba(255, 255, 255, 0.247);
-        position: sticky;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
-      
-      }
-      
-      
-      
-      .Navbar li a {
-        padding: 8px;
-        justify-content: flex-end;
-        width: 100%;
-        display: flex;
-        font-size: 20px;
-        font-family: sans-serif;
-      }
-      
-      .nav-bar ul{
-          margin: 0;
-          padding: 0;
-          display: inline;
-          color: #007bff;
-      }
-      
-      
-      .nav-bar li a {
-        display: block;
-        color: rgb(156, 83, 83);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      .nav-bar a{
-        text-decoration: none;
-          color: #333;
-          font-weight: bold;
-          font-size: 16px;
-      
-      }
-      .nav-bar li {
-        float: right;
-        display:inline;
-        color: black;
-        margin: 0 15px;
-        border-radius: 10%;
-        
-      } 
-      
-       .Navbar a:hover {
-        cursor: pointer;
-        color: rgb(235, 124, 143);
-      }
-      
-      .header .nav-bar a {
-        margin: 0 1rem;
-        font-size: 1.6 rem;
-        color: white;
-      }
-      
-      .header .nav-bar a:hover {
-        color: var(--primary-color);
-        border-bottom: 0.1rem solid var(--primary-color);
-      }
+  html {
+    background-color: white;
+  }
+
+  
+  
   div.content {
     background-color: #ff0000;
     width: 360px;
-  
+
     border: 5px solid #000000;
     border-radius: 5px;
     float: left;
@@ -107,7 +107,7 @@ MEDIA QUERIES
     padding: 5px 15px;
     height: 60%;
   }
-  div#Vue.js {
+  div#Vue {
     width: 360px;
     padding: 5px 15px;
     height: 60%;
@@ -156,102 +156,27 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 600px) {
-    html {
-        background-color:white;
-      
-      }
-      
-      
-      
-      /* logo */
-      #logo {
-        width: 100px;
-        height: 70px; 
-        float: left;
-        color: white;
-        font-size:100%;
-      }
-      /* navbar */
-      .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.5rem 7%;
-        background: rgb(50, 112, 170);
-        border-bottom: solid 1px rgba(255, 255, 255, 0.247);
-        position: sticky;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
-      
-      }
-      
-      
-      
-      .Navbar li a {
-        padding: 8px;
-        justify-content: flex-end;
-        width: 100%;
-        display: flex;
-        font-size: 20px;
-        font-family: sans-serif;
-      }
-      
-      .nav-bar ul{
-          margin: 0;
-          padding: 0;
-          display: inline;
-          color: #007bff;
-      }
-      
-      
-      .nav-bar li a {
-        display: block;
-        color: rgb(156, 83, 83);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      .nav-bar a{
-        text-decoration: none;
-          color: #333;
-          font-weight: bold;
-          font-size: 16px;
-      
-      }
-      .nav-bar li {
-        float: right;
-        display:inline;
-        color: black;
-        margin: 0 15px;
-        border-radius: 10%;
-        
-      } 
-      
-       .Navbar a:hover {
-        cursor: pointer;
-        color: rgb(235, 124, 143);
-      }
-      
-      .header .nav-bar a {
-        margin: 0 1rem;
-        font-size: 1.6 rem;
-        color: white;
-      }
-      
-      .header .nav-bar a:hover {
-        color: var(--primary-color);
-        border-bottom: 0.1rem solid var(--primary-color);
-      }
+  html {
+    background-color: white;
+  }
+
+  /* logo */
+  #logo {
+    width: 100px;
+    height: 70px;
+    float: left;
+    color: white;
+    font-size: 100%;
+  }
+ 
+
   div#Angular {
     width: 360px;
     padding: 5px 15px;
     height: 60%;
     height: 200px;
   }
-  div#Vue.js {
+  div#Vue  {
     width: 360px;
     padding: 5px 15px;
     height: 60%;
@@ -303,95 +228,23 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 480px) {
-    html {
-        background-color:white;
-        height: 200px;
-      }
-      
-      
-      
-      /* logo */
-      #logo {
-        width: 100px;
-        height: 70px; 
-        float: left;
-        color: white;
-        font-size:100%;
-      }
-      /* navbar */
-      .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.5rem 7%;
-        background: rgb(34, 126, 212);
-        border-bottom: solid 1px rgba(255, 255, 255, 0.247);
-        position: sticky;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
-      
-      }
-      
-      
-      
-      .Navbar li a {
-        padding: 8px;
-        justify-content: flex-end;
-        width: 100%;
-        display: flex;
-        font-size: 20px;
-        font-family: sans-serif;
-      }
-      
-      .nav-bar ul{
-          margin: 0;
-          padding: 0;
-          display: inline;
-          color: #007bff;
-      }
-      
-      
-      .nav-bar li a {
-        display: block;
-        color: rgb(156, 83, 83);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      .nav-bar a{
-        text-decoration: none;
-          color: #333;
-          font-weight: bold;
-          font-size: 16px;
-      
-      }
-      .nav-bar li {
-        float: right;
-        display:inline;
-        color: black;
-        margin: 0 15px;
-        border-radius: 10%;
-        
-      } 
-      
-       .Navbar a:hover {
-        cursor: pointer;
-        color: rgb(235, 124, 143);
-      }
-      
-      .header .nav-bar a {
-        margin: 0 1rem;
-        font-size: 1.6 rem;
-        color: white;
-      }
-      
-      .header .nav-bar a:hover {
-        color: var(--primary-color);
-        border-bottom: 0.1rem solid var(--primary-color);
-      }
+  html {
+    background-color: white;
+
+  }
+
+  /* logo */
+  #logo {
+    width: 100px;
+    height: 70px;
+    float: left;
+    color: white;
+    font-size: 100%;
+  }
+  /* navbar */
+ 
+
+  
   div.content {
     background-color: #ff0000;
     width: 360px;
@@ -407,10 +260,11 @@ MEDIA QUERIES
     padding: 5px 15px;
     height: 200px;
   }
-  div#Vue.js {
+  div#Vue  {
     width: 360px;
     padding: 5px 15px;
     height: 200px;
+  margin: 50%;
   }
 
   div#React {
@@ -422,7 +276,7 @@ MEDIA QUERIES
   div#React-Hooks {
     width: 360px;
     padding: 5px 15px;
-       height: 200px;
+    height: 200px;
   }
 
   table {
@@ -461,7 +315,7 @@ h2 {
   font-family: sans-serif;
 }
 div.content {
-    width: 360px;
+  width: 360px;
   height: 170px;
   border: 5px solid #000000;
   border-radius: 5px;
@@ -475,20 +329,20 @@ div#Angular {
   padding: 5px 15px;
   height: 60%;
 }
-div#Vue.js {
+div#Vue {
   width: 360px;
   padding: 5px 15px;
   height: 60%;
 }
 
 div#React {
-    width: 360px;
+  width: 360px;
   padding: 5px 15px;
   height: 60%;
 }
 
 div#React-Hooks {
-    width: 360px;
+  width: 360px;
   padding: 5px 15px;
   height: 60%;
 }
