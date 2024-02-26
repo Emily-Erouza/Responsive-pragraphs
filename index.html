@@ -8,36 +8,36 @@
     <title>Emily's page</title>
   </head>
 
-  <navbar class="header" id="header">
+  <header class="header" id="header">
+
     <div id="logo">
-      <a href="#"><div id=""></div></a>
-      <h1>FrameWork</h1>
+      <header>
+        <h1>Frameworks</h1>
+    </header>
     </div>
 
     <nav class="nav-bar">
       <ul>
-        <li id="react-menu">
-          <a href="#">React</a>
-          <!-- <ul>
-            <li><a href="https://react.dev/learn" target="_blank">Learn</a></li>
-            <li>
+        <li id="React">
+          <li class="dropdown">
+            <a href="https://reactjs.org/" class="dropbtn">React</a>
+            <div class="dropdown-content">
+              <a href="https://react.dev/learn" target="_blank">Learn</a>
               <a href="https://react.dev/reference" target="_blank"
-                >Reference</a
-              >
-            </li>
-            <li>
+              >Reference</a>
               <a href="https://react.dev/community" target="_blank"
-                >Community</a
-              >
-            </li>
-          </ul> -->
+              >Community</a>
+            </div>
+          </li>
         </li>
-        <li><a href="#Vue">Vue.js</a></li>
-        <li><a href="#Angular">Angular</a></li>
+
+        <li><a href="https://vuejs.org/"  target="_self">Vue.js</a></li>
+        <li><a href="https://angular.io/"  target="_self">Angular</a></li>
      
       </ul>
     </nav>
-  </navbar>
+
+  </header>
 
   <body>
     <div class="content" id="Angular">
@@ -54,7 +54,7 @@
         <li>Expression</li>
       </ul>
       <button type="submit" class="button">
-        <a href="https://angular.io/tutorial">Learn more</a>
+        <a href="https://angular.io/tutorial" target="_blank">Learn more</a>
       </button>
     </div>
 
@@ -72,7 +72,7 @@
         <li>Documentation</li>
       </ol>
       <button type="submit" class="button">
-        <a href="https://vuejs.org/guide">Learn more</a>
+        <a href="https://vuejs.org/guide" target="_blank">Learn more</a>
       </button>
     </div>
 
@@ -86,20 +86,13 @@
       <p>
         React Link is a fundamental component provided by the React JavaScript
         library, designed to facilitate navigation within single-page
-        applications (SPAs). It create hyperlinks that seamlessly navigate users
-        between different views or pages without causing a full page reload. DOM
-        to update only the necessary portions of the UI, resulting in smoother
-        and more efficient user experiences.
+        applications.
       </p>
 
-      <br />
+    
       <p>
         One of the key advantages of React Link lies in its ability to maintain
-        the application's state while navigating between different routes. This
-        enables developers to create complex navigational structures, nested
-        routes, and dynamic routing patterns with ease.With its simplicity,
-        flexibility, and performance optimizations, React Link remains an
-        indispensable tool for building modern SPAs with React.
+        the application's state while navigating between different routes. 
       </p>
 
       <button type="submit" class="button">
@@ -128,40 +121,35 @@
           <td>useState</td>
           <td>
             Is a React hook that allows functional components to manage state
-            within React applications. It allows functional components to manage
-            and update their internal state, making them more powerful and
-            versatile in building dynamic user interfaces. It triggering
-            re-renders when state changes occur.
+            within React applications. 
           </td>
         </tr>
         <tr>
           <td>useEffect</td>
           <td>
-            Is a React hook used for handling side effects in functional
-            components. It replaces lifecycle methods like componentDidMount,
-            componentDidUpdate, and componentWillUnmount, allowing components to
-            interact with the outside world.
+             used for handling side effects in functional
+            components. 
           </td>
         </tr>
         <tr>
           <td>UseContext</td>
           <td>
-            is a hook that enables functional components to consume context
-            provided by a parent component. It provides a simple way to access
-            data or functions stored in the context without needing to pass
-            props through intermediate components.
+           enables functional components to consume context
+            provided by a parent component. 
           </td>
         </tr>
       </table>
       <button type="submit" class="button">
-        <a href="https://legacy.reactjs.org/docs/hooks-intro.html"
+        <a href="https://legacy.reactjs.org/docs/hooks-intro.html" target="_blank"
           >Learn more</a
         >
       </button>
     </div>
 
-    <footer>
-      <div id="copyright"></div>
+    <footer id="footer">
+      <div id="copyright">
+        &copy; <span id="currentYear"></span> 
+      </div>
     </footer>
 
     <script src="script.js"></script>
