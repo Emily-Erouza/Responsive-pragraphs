@@ -5,11 +5,13 @@ MEDIA QUERIES
 /* logo */
 #logo {
   width: 100px;
-  height: 70px; 
+  height: 70px;
   float: left;
   color: white;
-  font-size:100%;
+  font-size: 100%;
 }
+
+
 /* navbar */
 .header {
   display: flex;
@@ -23,10 +25,7 @@ MEDIA QUERIES
   left: 0;
   right: 0;
   z-index: 1000;
-
 }
-
-
 
 .Navbar li a {
   padding: 8px;
@@ -37,13 +36,12 @@ MEDIA QUERIES
   font-family: sans-serif;
 }
 
-.nav-bar ul{
-    margin: 0;
-    padding: 0;
-    display: inline;
-    color: #007bff;
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  color: #007bff;
 }
-
 
 .nav-bar li a {
   display: block;
@@ -53,23 +51,21 @@ MEDIA QUERIES
   text-decoration: none;
 }
 
-.nav-bar a{
+.nav-bar a {
   text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;
-
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
 }
 .nav-bar li {
   float: right;
-  display:inline;
+  display: inline;
   color: black;
   margin: 0 15px;
   border-radius: 10%;
-  
-} 
+}
 
- .Navbar a:hover {
+.Navbar a:hover {
   cursor: pointer;
   color: rgb(235, 124, 143);
 }
@@ -84,7 +80,8 @@ MEDIA QUERIES
   color: var(--primary-color);
   border-bottom: 0.1rem solid var(--primary-color);
 }
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -92,18 +89,17 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
   background-color: rgb(50, 112, 170);
 }
-
-
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:rgb(50, 112, 170);
+  background-color: rgb(50, 112, 170);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -115,340 +111,84 @@ li a:hover, .dropdown:hover .dropbtn {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-@media screen and (max-width: 980px) {
-  html {
-    background-color: white;
-  }
 
-  
-  /* cards */
-  div.content {
-    width: 360px;
-    height: 170px;
-    border: 5px solid #000000;
-    border-radius: 5px;
-    float: left;
-    margin: 20px;
-  
-  }
-
-  div#Angular {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    
-    border-radius: 5px;
-  }
-  div#Vue {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    border-radius: 5px;
-  }
-
-  div#React {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    border-radius: 5px;
-  }
-
-  div#React-Hooks {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    border-radius: 5px;
-  }
-
-/* table */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 10%;
-  }
-
-  th,
-  td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-
-  /* button */
-  .button {
-    background-color: rgb(118, 118, 218);
-    margin-left: 70%;
-    margin-bottom: 8%;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  /* footer */
-  footer {
-    clear: both;
-    text-align: center;
-    background: rgb(13, 72, 128);
-    margin-top: 10px;
-    position: sticky;
-  }
-  img {
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
+.cards {
+  justify-content: center;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  html {
-    background-color: white;
-  }
-
-  /* logo */
-  #logo {
-    width: 100px;
-    height: 70px;
-    float: left;
-    color: white;
-    font-size: 100%;
-  }
- 
-/* cards */
-  div#Angular {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    height: 200px;
-    border-radius: 5px;
-  }
-  div#Vue  {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    height: 200px;
-    border-radius: 5px;
-  }
-
-  div#React {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    height: 200px;
-    border-radius: 5px;
-  }
-
-  div#React-Hooks {
-    width: 360px;
-    padding: 5px 15px;
-    height: 60%;
-    height: 200px;
-    border-radius: 5px;
-  }
-
-/* table */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 10%;
-  }
-
-  th,
-  td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-
-  /* button */
-  .button {
-    background-color: rgb(118, 118, 218);
-    margin-left: 70%;
-    margin-bottom: 8%;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  /* footer */
-  footer {
-    clear: both;
-    text-align: center;
-    background: rgb(13, 72, 128);
-    margin-top: 10px;
-    position: sticky;
-  }
-  img {
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  html {
-    background-color: white;
-
-  }
-
-  /* logo */
-  #logo {
-    width: 100px;
-    height: 70px;
-    float: left;
-    color: white;
-    font-size: 100%;
-  }
-
- 
-/* cards */
-div.content {
+/* class for all cards */
+.container {
   width: 360px;
   height: 170px;
   border: 5px solid #000000;
   border-radius: 5px;
   float: left;
   margin: 20px;
-
-}
-
-  div#Angular {
-    width: 360px;
-    padding: 5px 15px;
-    height: 200px;
-    border-radius: 5px;
-  }
-  div#Vue  {
-    width: 360px;
-    padding: 5px 15px;
-    height: 200px;
-  margin: 50%;
-  border-radius: 5px;
-  }
-
-  div#React {
-    width: 360px;
-    padding: 5px 15px;
-    height: 200px;
-    border-radius: 5px;
-  }
-
-  div#React-Hooks {
-    width: 360px;
-    padding: 5px 15px;
-    height: 200px;
-    border-radius: 5px;
-  }
-
-/* table */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 10%;
-  }
-
-  th,
-  td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-
-  /* button */
-  .button {
-    background-color: rgb(118, 118, 218);
-    margin-left: 70%;
-    margin-bottom: 8%;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  /* footer */
-  footer {
-    clear: both;
-    text-align: center;
-    background: rgb(13, 72, 128);
-    margin-top: 10px;
-    position: sticky;
-  }
-}
-
-h2 {
-  text-align: center;
-  color: rgb(123, 12, 12);
-  font-family: sans-serif;
 }
 
 
-div.content {
-  width: 360px;
-  height: 170px;
-  border: 5px solid #000000;
-  border-radius: 5px;
-  float: left;
-  margin: 20px;
-
-}
-
-div#Angular {
+#Angular {
   width: 360px;
   padding: 5px 15px;
-  height: 60%;
+  height: 500px;
+  margin-top: 5%;
   border-radius: 5px;
+  margin-bottom: 5%;
 }
-div#Vue {
+#Vue {
   width: 360px;
   padding: 5px 15px;
-  height: 60%;
+  height: 500px;
   border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 div#React {
   width: 360px;
   padding: 5px 15px;
-  height: 60%;
   border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 500px;
 }
 
-div#React-Hooks {
+#React-Hooks {
   width: 360px;
   padding: 5px 15px;
-  height: 60%;
+  font-size: 7px;
   border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 500px;
+  
+
 }
-p {
-  color: dark black;
-  font-style: oblique;
-  font-size: larger;
-  margin-bottom: 10px;
-}
-img {
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
+
+/* table */
 table {
+  overflow: auto;
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 10%;
+  font-size: 12px;
 }
 
 th,
 td {
+  font-size: 12px;
+  overflow: auto;
   border: 1px solid black;
   padding: 8px;
   text-align: left;
@@ -458,11 +198,33 @@ td {
 .button {
   background-color: rgb(118, 118, 218);
   margin-left: 70%;
-  margin-bottom: 8%;
+  margin-bottom: 5%;
   display: inline-block;
   border-radius: 5px;
   padding: 5px;
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+h2 {
+  text-align: center;
+  color: rgb(123, 12, 12);
+  font-family: sans-serif;
+}
+
+
+p {
+  color: dark black;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 /* footer */
@@ -472,6 +234,5 @@ footer {
   text-align: center;
   background: rgb(13, 72, 128);
   margin-top: 10px;
-  
   position: sticky;
 }
