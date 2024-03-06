@@ -253,18 +253,16 @@ MEDIA QUERIES
 #logo {
   width: 100px;
   height: 70px;
-  float: left;
+  display: flex;
   color: white;
-  font-size: 100%;
 }
-
 
 /* navbar */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 7%;
+  padding: 15px;
   background: rgb(50, 112, 170);
   border-bottom: solid 1px rgba(255, 255, 255, 0.247);
   position: sticky;
@@ -305,16 +303,15 @@ MEDIA QUERIES
   font-size: 16px;
 }
 .nav-bar li {
-  float: right;
-  display: inline;
+  display: inline-flex;
   color: black;
   margin: 0 15px;
   border-radius: 10%;
 }
 
-.Navbar a:hover {
+.nav-bar :hover {
   cursor: pointer;
-  color: rgb(235, 124, 143);
+  color: rgb(146, 174, 226);
 }
 
 .header .nav-bar a {
@@ -371,65 +368,31 @@ li a:hover,
   margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 /* class for all cards */
 .container {
   width: 360px;
-  height: 170px;
   border: 5px solid #000000;
   border-radius: 5px;
-  float: left;
+  display: inline;
   margin: 20px;
-}
-
-
-#Angular {
-  width: 360px;
   padding: 5px 15px;
   height: 500px;
   margin-top: 5%;
   border-radius: 5px;
   margin-bottom: 5%;
 }
-#Vue {
-  width: 360px;
-  padding: 5px 15px;
-  height: 500px;
-  border-radius: 5px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-div#React {
-  width: 360px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  height: 500px;
-}
-
-#React-Hooks {
-  width: 360px;
-  padding: 5px 15px;
-  font-size: 7px;
-  border-radius: 5px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  height: 500px;
 
 
-}
 
 /* table */
 table {
   overflow: auto;
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 10%;
-  font-size: 12px;
+  margin-bottom: 2px;
+
 }
 
 th,
@@ -443,7 +406,7 @@ td {
 
 /* button */
 .button {
-  background-color: rgb(118, 118, 218);
+  background-color: rgb(109, 109, 240);
   margin-left: 70%;
   margin-bottom: 5%;
   display: inline-block;
@@ -451,15 +414,17 @@ td {
   padding: 5px;
   text-decoration: none;
 }
+.button:hover {
+  background-color: #95adc7;
 
-img {
+}
+
+ img {
   width: 100%;
   height: 200px;
-  background-size: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 
 h2 {
   text-align: center;
@@ -467,16 +432,15 @@ h2 {
   font-family: sans-serif;
 }
 
-
 p {
-  color: dark black;
+  color:  black;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
 /* footer */
 footer {
-  clear: both;
+display: grid;
   padding: 5px;
   text-align: center;
   background: rgb(13, 72, 128);
