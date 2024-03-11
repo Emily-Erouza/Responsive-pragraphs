@@ -1,32 +1,162 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Emily's page</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+  <header class="header" id="header">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <div id="logo">
+      <header>
+        <h1>Frameworks</h1>
+    </header>
+    </div>
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <nav class="nav-bar">
+      <ul>
+        <li id="React">
+          <li class="dropdown">
+            <a href="https://reactjs.org/" class="dropbtn">React</a>
+            <div class="dropdown-content">
+              <a href="https://react.dev/learn" target="_blank">Learn</a>
+              <a href="https://react.dev/reference" target="_blank"
+              >Reference</a>
+              <a href="https://react.dev/community" target="_blank"
+              >Community</a>
+            </div>
+          </li>
+        </li>
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
+        <li><a href="https://vuejs.org/"  target="_self">Vue.js</a></li>
+        <li><a href="https://angular.io/"  target="_self">Angular</a></li>
 
-<body>
+      </ul>
+    </nav>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+  </header>
 
-</body>
+  <body>
+    <div class="cards">
 
+
+    <div class="container"  >
+      <img
+        src="new-site/img/download.png"
+        alt="Angular"
+      />
+      <h2>Angular</h2>
+      <p>Some points about Angular</p>
+      <ul>
+        <li>HTTP client</li>
+        <li>Services</li>
+        <li>Cross platform</li>
+        <li>Expression</li>
+      </ul>
+
+        <a href="https://angular.io/tutorial" target="_blank" class="button">Learn more</a>
+
+    </div>
+
+    <div class="container" >
+      <img
+        src="./new-site/img/image.png"
+        alt="Vue.js"
+      />
+      <h2>Vue.js</h2>
+      <p>Some points about Vue.js</p>
+      <ol>
+        <li>Reusability</li>
+        <li>Virtual.Dom</li>
+        <li>Simplicity</li>
+        <li>Documentation</li>
+      </ol>
+
+        <a href="https://vuejs.org/guide" target="_blank" class="button">Learn more</a>
+
+    </div>
+
+    <div class="container" >
+      <img
+        src="./new-site/img/image copy.png"
+        alt="React"
+      />
+      <h2>React content</h2>
+
+      <p>
+        React Link is a fundamental component provided by the React JavaScript
+        library, designed to facilitate navigation within single-page
+        applications.
+      </p>
+
+
+      <p>
+        One of the key advantages of React Link lies in its ability to maintain
+        the application's state while navigating between different routes.
+      </p>
+
+
+        <a href="https://react.dev/" class="button">Learn more</a>
+
+    </div>
+
+
+    <div class="container" >
+      <img
+        src="./new-site/img/image copy 2.png"
+        width="100px"
+        alt="React Hooks"
+      />
+      <h2>React Hooks</h2>
+
+      <p>There are some react hooks:</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Hooks</th>
+            <th>Summary</th>
+          </tr>
+        </thead>
+
+        <tr>
+          <td>useState</td>
+          <td>
+            Is a React hook that allows functional components to manage state
+            within React applications.
+          </td>
+        </tr>
+        <tr>
+          <td>useEffect</td>
+          <td>
+             used for handling side effects in functional
+            components.
+          </td>
+        </tr>
+        <tr>
+          <td>UseContext</td>
+          <td>
+          enables functional components to consume context
+            provided by a parent component.
+          </td>
+        </tr>
+      </table>
+
+        <a href="https://legacy.reactjs.org/docs/hooks-intro.html" target="_blank"
+        class="button" >Learn more</a
+        >
+
+    </div>
+  </div>
+    <footer id="footer">
+      <div id="copyright">
+        &copy; <span id="currentYear"></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
